@@ -5,34 +5,32 @@ ul {
     list-style: none;
     padding: 0;
 }
-img {
-    display: inline;
-    width: 200px;
-    height: 100px;
-}
 #footer {
     width: 100%;
-    border-top: solid 2px black;
+    border-top: solid 1px black;
     background-color: white;
     position: fixed;
     bottom: 0;
 }
 .guess {
+    /*where guesses show up*/
     display: inline;
-    font-size: 60px;
-    border: 1 px solid black;
+    font-size: 40px;
+    border: 1px solid black; 
     padding: 0 25px;
     border-radius: 10%;
     background-color: white;
 }
 
 #player-input {
+    /*where players enter their guesses*/
     border-radius: 50%;
     width: 160px;
     height: 160px;
     font-size: 60px;
 }
 #submit {
+    /*green button*/
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -52,11 +50,11 @@ body {
     background-repeat: no-repeat;
     background-position: center center; 
 }
-.shadow {
-    box-shadow: 2px 2px 2px darkgray
-}
 #app {
-    width: 60%;
+    width: 45%;
     margin: 50px auto;
-    background-color: rgba(256, 256, 256, 0.7);
+    border: 2px solid black; 
+    border-radius: 10%;
+    background-color: rgba(232, 232, 232, 0.75);
+    padding: .5%;
 }
