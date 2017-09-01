@@ -113,8 +113,8 @@ $('#hint').click(function() {
 
 $('#reset').click(function() {
     game = newGame();
-    $('#title').text('Play the Guessing Game!');
-    $('#subtitle').text('Guess a number between 1-100!')
+    $('#title').text('Play the Guessing Game');
+    $('#subtitle').text('Guess a number between 1-100.')
     $('.guess').text('-');
     $('#hint, #submit').prop("disabled",false);
     
