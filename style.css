@@ -13,7 +13,6 @@ ul {
     bottom: 0;
 }
 .guess {
-    /*where guesses show up*/
     display: inline;
     font-size: 40px;
     border: 1px solid black; 
@@ -23,14 +22,12 @@ ul {
 }
 
 #player-input {
-    /*where players enter their guesses*/
     border-radius: 50%;
     width: 160px;
     height: 160px;
     font-size: 60px;
 }
 #submit {
-    /*green button*/
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -45,7 +42,7 @@ ul {
     position: relative;
 }
 body {
-    background-image: url('kew.jpg');
+    background-image: url('kew.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center; 
